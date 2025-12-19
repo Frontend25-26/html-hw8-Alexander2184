@@ -2,20 +2,233 @@
 <head>
     <meta charset="UTF-8">
     <title>HW8</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header">
+        <img class="logo" src="../img/Logo.svg" width="40" height="40" alt="logo">
+        <nav class="menu">
+            <a class="button hide-mobile" href = "#about">About me</a>
+            <a class="button hide-mobile" href = "#education">Education</a>
+            <a class="button hide-mobile" href = "#experience">Work experience</a>
+            <a class="button hide-mobile" href = "#skills">Skills</a>
+            <a class="button" href = "#contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-text">
+            Hello!<br>
+            My name is<wbr> <span style="white-space: nowrap">Alex Smith</span><br>
+            I'm creative front-end developer
+        </div>
+        <div class="Image image-about"></div>
+    </section>
+    <section id="education">
+        <div class="education-header">
+            Education
+        </div>
+        <div class="education-grid">
+            <div class="education-entry">
+                <div class="entry-header">Kingston university</div>
+                <div class="education-text">Master's degree - Software Engineering</div>
+                <div class="date">2019 - 2021</div>
+            </div>
+            <div class="education-entry">
+                <div class="entry-header">Kingston university</div>
+                <div class="education-text">Bachelor's degree - Computer Engineering</div>
+                <div class="date">2015 - 2019</div>
+            </div>
+            <div class="education-entry">
+                <div class="entry-header">Westminster School</div>
+                <div class="education-text">Diploma's degree - Mathematics</div>
+                <div class="date">2013 - 2015</div>
+            </div>
+            <div class="education-entry">
+                <div class="entry-header">Kingston university</div>
+                <div class="education-text">Master's degree - Software Engineering</div>
+                <div class="date">2019 - 2021</div>
+            </div>
+            <div class="education-entry">
+                <div class="entry-header">Kingston university</div>
+                <div class="education-text">Bachelor's degree - Computer Engineering</div>
+                <div class="date">2015 - 2019</div>
+            </div>
+            <div class="education-entry">
+                <div class="entry-header">Westminster School</div>
+                <div class="education-text">Diploma's degree - Mathematics</div>
+                <div class="date">2013 - 2015</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="exp-header">
+            Work Experience
+        </div>
+        <nav class="media-menu">
+            <button class="button">Apple</button>
+            <button class="button">Microsoft</button>
+            <button class="button">Facebook</button>
+        </nav>
+        <div class="experience-text-pic">
+            <div class="experience-text">
+                <div class="exp-text-header">
+                    <p class="header">Front-end Developer Apple.Inc</p>
+                    <p class="subheader">California, United States</p>
+                </div>
+                <p class="date">Nov 2020 - Present · Full-time</p>
+                <p class="paragraph">
+                    В начале XX века немецкие психологи провели исследования
+                    восприятия человеком окружающего мира. Они выявили естественное стремление
+                    человека найти порядок в беспорядке.</p>
+                <p class="paragraph">
+                    Их эксперименты показали, что когда мозг обрабатывает полученные образы,
+                    он воспринимает разрозненные элементы как единое целое.
+                    Подсознательно мы пытаемся группировать похожие элементы, распознавать закономерности
+                    и таким образом упрощать сложные образы.</p>
+            </div>
+            <img class="experience-pic" src="../img/Image_experience.png" alt="experience">
+        </div>
+
+    </section>
+    <section id="skills">
+        <div class="skills-header">Skills</div>
+        <div class="skills-grid">
+            <div class="skills-entry">
+                <div class="entry-header">React</div>
+                <div class="bar">
+                    <div class="fill-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">Angular</div>
+                <div class="bar">
+                    <div class="fill-bar angular-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">HTML + CSS</div>
+                <div class="bar">
+                    <div class="fill-bar htmlcss-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">Javascript</div>
+                <div class="bar">
+                    <div class="fill-bar js-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">Python</div>
+                <div class="bar">
+                    <div class="fill-bar python-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">Soft skill</div>
+                <div class="bar">
+                    <div class="fill-bar softskill-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">Motion graphics</div>
+                <div class="bar">
+                    <div class="fill-bar motion-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">UX</div>
+                <div class="bar">
+                    <div class="fill-bar ux-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">UI</div>
+                <div class="bar">
+                    <div class="fill-bar ui-bar"></div>
+                </div>
+            </div>
+            <div class="skills-entry">
+                <div class="entry-header">3D</div>
+                <div class="bar">
+                    <div class="fill-bar ddd-bar"></div>
+                </div>
+            </div>
+        </div>
+        <form class="add-new-skill">
+            <div class="add-new-skill-header">Add new skill</div>
+            <div class="add-form">
+                <div class="name-field">
+
+                    <div class="name">Skill name</div>
+                    <label>
+                        <input class="form" type="text" id="skill-name" name="skill-name">
+                    </label>
+                </div>
+                <div class="percent-field">
+                    <div class="name">Skill proficiency percentage, %</div>
+                    <label>
+                        <input class="form" type="text" id="skill-percentage" name="skill-percentage">
+                    </label>
+                </div>
+                <div class="add">
+                    <button>Add</button>
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <section id="contacts">
+        <div class="contact-header">Contacts</div>
+        <div class="contact-line">
+            <div class="contact-elem">
+                <img class="contact-pic" src="../img/pin.svg" alt="address">
+                <div class="contact-text">
+                    <div class="contact-text-header">Address</div>
+                    <div class="contact-text-text">16 Lva Tolstogo str., Moscow</div>
+                </div>
+            </div>
+            <div class="contact-elem">
+                <img class="contact-pic" src="../img/phone%20call.svg" alt="phone">
+                <div class="contact-text">
+                    <div class="contact-text-header">Phone</div>
+                    <a class="contact-text-text" href="tel:+70000000000">+7 (000) 000-00-00</a>
+                </div>
+            </div>
+            <div class="contact-elem">
+                <img class="contact-pic" src="../img/mail.svg" alt="mail">
+                <div class="contact-text">
+                    <div class="contact-text-header">E-Mail</div>
+                    <a class="contact-text-text" href="mailto:myemail@yandex.ru">myemail@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <footer id="footer">
+        <div class="media-icons">
+            <a href="https://www.instagram.com/">
+                <img src="../img/Instagram.svg" alt="inst">
+            </a>
+            <a href="https://github.com/">
+                <img src="../img/Github.svg" alt="github">
+            </a>
+            <a href="https://x.com/">
+                <img src="../img/Twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="../img/Linkedin.svg" alt="linkedin">
+            </a>
+        </div>
+        <div class="year">
+            © 2023
+        </div>
+    </footer>
 </div>
 
-<img class="Image" width="500px"/>
 
 </body>
 </html>
